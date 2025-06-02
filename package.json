@@ -1,0 +1,33 @@
+{
+  "name": "data-pusher-",
+  "version": "1.0.0",
+  "description": "To create an Express web application to receive data into the app server for an account and send it across different platforms (destinations) from that particular account using webhook URLs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamizh-32/Data-Pusher-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tamizh-32/Data-Pusher-/issues"
+  },
+  "homepage": "https://github.com/Tamizh-32/Data-Pusher-#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
